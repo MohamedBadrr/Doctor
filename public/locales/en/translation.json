@@ -1,0 +1,23 @@
+{
+  "Welcome to React": "Welcome to React and react-i18next",
+  "header": {
+    "logo": "Media Point",
+    "home": "Home",
+    "aboutus": "About Us",
+    "contactus": "Contact Us",
+    "services": "Services",
+    "faqs": "FAQs"
+  },
+  "home": {
+    "intro": "Best Medical Treatment",
+    "main": "Proudly Introducing",
+    "main2": "Media Point",
+    "text": "Donec ullamcorper, nulla eget tincidunt suscipit, neque justo aliquet tellus, vel volutpat odio elit et mauris.",
+    "button": "READ MORE"
+  },
+  "faq": {
+    "main":"FAQs",
+    "title": "Is it accessible?",
+    "text": "Lorem ipsum dolor sit amet, menandri scribentur vim eu, eam eu rebum singulis, labitur feugiat dolorum cu usu. Epicuri sententiae ex usu, munere omnium vix no, sed liber consul alienum ad. Epicuri oporteat in has, sea moderatius consectetuer et. No pro mentitum luptatum, vocibus liberavisse ei eum, cu laudem similique sit. Ad atomorum deseruisse mel, eu nulla novum mazim eos. At quo sumo albucius, eum lucilius molestiae ei, ut sensibus.."
+  }
+}
