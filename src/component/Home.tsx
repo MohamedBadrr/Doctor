@@ -10,9 +10,10 @@ const Home = () => {
             <span className="text-white text-[19px] md:text-[21px] leading-[31px] font-[500] font-Quicksand">
               {t("home.intro")}
             </span>
-            <div>
+            <div className="">
               <p className="text-[39px] md:text-[89px] font-[700] md:leading-[100px] text-white font-Quicksand">
                 {t("home.main")} {t("home.main2")}
+                {/* {"Best Medical Treatment"} {"Proudly Introducing"} */}
               </p>
             </div>
             <div className="w-[314px] md:w-[618px]">

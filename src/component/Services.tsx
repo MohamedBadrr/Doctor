@@ -39,9 +39,9 @@ const Services = () => {
             {images.map((image, index) => (
               <div
                 key={index}
-                className="flex flex-col items-center justify-center gap-[30px] p-[15px] "
+                className="flex flex-col items-center justify-center gap-[30px] p-[15px] group"
               >
-                <img src={image} alt="service" className="w-[78px] h-[78px]" />
+                <img src={image} alt="service" className="w-[78px] h-[78px] transform transition-transform duration-300 group-hover:-translate-y-[15px]  " />
                 <h1 className="text-[19px] font-[700]  leading-[31px]   text-[#2d3134] font-Quicksand">
                   Diagnostics
                 </h1>
