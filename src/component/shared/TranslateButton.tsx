@@ -4,6 +4,7 @@ import LanguageDetector from "i18next-browser-languagedetector";
 import HttpApi from "i18next-http-backend";
 import Cookies from "js-cookie";
 import { useEffect, useState } from "react";
+import { FaGlobe } from "react-icons/fa";
 
 i18
   .use(initReactI18next)
@@ -21,30 +22,50 @@ i18
   });
 
 const TranslateButton = () => {
-  const [isArabic, setIsArabic] = useState(false);
+  const [isArabic] = useState(false);
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const lng = Cookies.get("i18next") || "en";
   useEffect(() => {
     window.document.documentElement.dir = lng === "ar" ? "rtl" : "ltr";
     window.document.dir = i18.dir();
   }, [lng]);
-  const toggleLanguage = () => {
-    setIsArabic(!isArabic);
-  };
 
   return (
+    <div className="relative">
+    {/* Earth Icon Button */}
     <div
-      onClick={() => {
-        toggleLanguage();
-        i18.changeLanguage(isArabic ? "en" : "ar");
-      }}
-      className={`w-[50px] h-[10px]  ${
-        isArabic ? "bg-secondary" : "bg-gray-200"
-      }  flex items-center rounded-[45%]  cursor-pointer `}
+      onClick={() => setIsDropdownOpen(!isDropdownOpen)}
+      className="flex items-center justify-center  cursor-pointer"
     >
-      <div className="w-[25px] h-[23px] bg-white text-[12px] border-[1px] border-gray-400 text-gray-800 p-1 rounded-[50%] flex items-center justify-center">
-        {isArabic ? "EN" : "AR"}
-      </div>
+      <FaGlobe className="text-xl  text-gray-500  hover:text-secondary transition-all" />
     </div>
+
+    {/* Dropdown Menu */}
+    {isDropdownOpen && (
+      <div className="absolute top-[25px] left-0 z-50  bg-white rounded-md shadow-lg border border-gray-300">
+        <ul className="flex flex-col">
+          <li
+            onClick={() => {
+              i18.changeLanguage(isArabic ? "ar" : "en");
+              setIsDropdownOpen(false);
+            }}
+            className={"px-8 cursor-pointer hover:bg-gray-100 text-center"}
+          >
+            EN
+          </li>
+          <li
+            onClick={() => {
+              i18.changeLanguage(isArabic ? "en" : "ar");
+              setIsDropdownOpen(false);
+            }}
+            className={"px-8 cursor-pointer hover:bg-gray-100 text-center"}
+          >
+           AR
+          </li>
+        </ul>
+      </div>
+    )}
+  </div>
   );
 };
 
