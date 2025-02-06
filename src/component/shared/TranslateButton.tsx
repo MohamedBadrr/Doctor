@@ -42,7 +42,7 @@ const TranslateButton = () => {
 
     {/* Dropdown Menu */}
     {isDropdownOpen && (
-      <div className="absolute top-[25px] left-0 z-50  bg-white rounded-md shadow-lg border border-gray-300">
+      <div className="absolute bottom-[0px] left-[25px] md:top-[25px] md:left-0   bg-white rounded-md shadow-lg border border-gray-300">
         <ul className="flex flex-col">
           <li
             onClick={() => {

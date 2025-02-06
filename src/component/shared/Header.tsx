@@ -111,7 +111,7 @@ const Header = () => {
       {/* Mobile Menu */}
       <div
         className={`md:hidden fixed top-[70px] left-0 w-full bg-white overflow-hidden transition-[max-height] duration-500 ease-in-out z-20 ${
-          isMobileMenuOpen ? "max-h-[500px]" : "max-h-0"
+          isMobileMenuOpen ? "max-h-auto" : "max-h-0"
         }`}
       >
         <ul className="space-y-1 text-gray-700 pt-3 px-[35px] pb-5">
