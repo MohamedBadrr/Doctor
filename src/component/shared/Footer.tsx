@@ -176,7 +176,7 @@ const Footer = () => {
                   rel="noopener noreferrer"
                   className="text-[#CFCFCF] text-[14px] hover:text-secondary duration-150 transition-all"
                 >
-                  +0800 2537 9901
+                  +02010 29229993
                 </a>
               </p>
             </p>
@@ -187,7 +187,7 @@ const Footer = () => {
                   href="mailto:medipoint@example.com"
                   className="text-[#CFCFCF] text-[14px] hover:text-secondary duration-150 transition-all"
                 >
-                  medipoint@example.com
+                  El-Hodiby@example.com
                 </a>
               </p>
             </p>
@@ -196,7 +196,7 @@ const Footer = () => {
       </footer>
       <div className="bg-[#1A1A1A] text-[#CFCFCF] text-[14px]  py-4 text-center h-[98px] md:h-[72px] flex items-center justify-center">
         <p className="text-[#BAB7B7] font-[700] text-[14px]">
-          &copy; 2025 Medipoint, {t("footer.allRights")}
+          &copy; 2025 El-Hodiby, {t("footer.allRights")}
 
         </p>
       </div>
