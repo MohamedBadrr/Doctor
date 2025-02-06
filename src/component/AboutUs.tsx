@@ -24,7 +24,7 @@ const AboutUs = () => {
               <p className="text-[15px] leading-[26px] my-[25px]">
                 <p className="text-[38px] text-[#2D3134] leading-[50px] font-[300] font-Quicksand">
                 {t("aboutus.name")}
-                  <span className="font-bold">{t("aboutus.job")}</span>{" "}
+                  <span className="font-bold mx-2">{t("aboutus.job")}</span>{" "}
                 </p>
               </p>
               <p className="text-[#716F6F] text-[16px] my-[10px]">

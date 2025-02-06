@@ -24,15 +24,23 @@
     "main": "Our Services",
     "desc": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia",
     "name": "Diagnostics",
-    "text": "Phasellus venenatis porta rhoncus. Integer et viverra felis itai."
+    "text": "Phasellus venenatis porta rhoncus. Integer et viverra felis itai.",
+    "service1": "Choose the best gynecology and obstetrics doctor in Egypt based on consultation fees, accepted insurance, or search by the doctor's name. Check patient reviews and book your appointment online for free.",
+    "service2": "Choose the best IVF and infertility doctor in Egypt based on consultation fees, accepted insurance, or search by the doctor's name. Check patient reviews and book your appointment online for free.",
+    "service3": "Choose the best gynecologic oncology surgeon in Egypt based on consultation fees, accepted insurance, or search by the doctor's name. Check patient reviews and book your appointment online for free.",
+    "service4": "Choose the best female cosmetic surgeon in Egypt based on consultation fees, accepted insurance, or search by the doctor's name. Check patient reviews and book your appointment online for free.",
+    "title1": "Gynecology & Obstetrics",
+    "title2": "IVF & Infertility",
+    "title3": "Gynecologic Oncology",
+    "title4": "Female Cosmetic Surgery"
   },
   "aboutus": {
     "mainTitle": "About Us ",
     "desc": "This is a short description about my self and my work.",
     "question": "Who We Are?",
     "name": "Vivamus Vestibulum ",
-    "job": " Rhonc Ex, Non Bibendum Erat",
-    "overview": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur varius ligula quis turpis ornare, a eleifend leo tempor. Nullam euismod, purus eu rhoncus rhoncus, purus elit semper lorem, eu condimentum lorem metus id nisi. Vestibulum semper mollis cursus. Pellentesque eros turpis, imperdiet sit amet ultricies vel, pharetra non sapien. Sed quis porttitor enim."
+    "job": "Obstetrics and Gynecology Doctor",
+    "overview": "Senior Consultant in Obstetrics, Gynecology, IVF, and Endoscopy - PhD in Obstetrics and Gynecology - Fellow of the Fetal Medicine Unit - Kasr Al-Ainy - Consultant in Painless Natural Delivery, Painless C-Section, and 4D Fetal Ultrasound - Specialist in the treatment of vaginal bleeding, urinary incontinence, gynecological infections, and post-menopause follow-up - Pre-marital consultations - Vaginal and uterine prolapse repair - Hysterectomy and fibroid removal - Ovarian cyst removal - In vitro fertilization (IVF), intracytoplasmic sperm injection (ICSI), and infertility treatment."
   },
   "number": {
     "one": " Health Websites ",

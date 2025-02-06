@@ -3,23 +3,31 @@ import image1 from "../assets/service1.png";
 import image2 from "../assets/service2.png";
 import image3 from "../assets/service3.png";
 import image4 from "../assets/service4.png";
-import image5 from "../assets/service5.png";
-import image6 from "../assets/service6.png";
-import image7 from "../assets/service7.png";
-import image8 from "../assets/service8.png";
+
 
 const Services = () => {
-  const images = [
-    image1,
-    image2,
-    image3,
-    image4,
-    image5,
-    image6,
-    image7,
-    image8,
-  ];
   const { t } = useTranslation();
+
+  const services = [
+    {
+      image:image1,
+      services : t("services.service1"),
+      title: t("services.title1")
+    },{
+      image:image2,
+      services : t("services.service2"),
+      title: t("services.title2")
+    },{
+      image:image3,
+      services : t("services.service3"),
+      title: t("services.title3")
+    },{
+      image:image4,
+      services : t("services.service4"),
+      title: t("services.title4")
+    },
+    
+  ];
   return (
     <div className="">
       {/* Title */}
@@ -37,17 +45,17 @@ const Services = () => {
         <div className="container w-full md:px-[50px] lg:px-[170px] h-full flex items-center justify-center">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-y-[20px] ">
             {/* one service */}
-            {images.map((image, index) => (
+            {services.map((services, index) => (
               <div
                 key={index}
                 className="flex flex-col items-center justify-center gap-[30px] p-[15px] group"
               >
-                <img src={image} alt="service" className="w-[78px] h-[78px] transform transition-transform duration-300 group-hover:-translate-y-[15px]  " />
+                <img src={services.image} alt="service" className="w-[78px] h-[78px] transform transition-transform duration-300 group-hover:-translate-y-[15px]  " />
                 <h1 className="text-[19px] font-[700]  leading-[31px]   text-[#2d3134] font-Quicksand">
-                {t("services.name")}
+                {services.title}
                 </h1>
                 <p className="text-center text-[15px] text-[#716f6f] leading-[26px] ">
-                {t("services.text")}
+                {services.services}
                 </p>
               </div>
             ))}
