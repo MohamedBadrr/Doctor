@@ -3,11 +3,11 @@ import { useTranslation } from "react-i18next";
 
 const Number = () => {
   const {t} = useTranslation();
-  const stats = [
-    { value: 1740, label: t("number.one") },
-    { value: 2061, label: t("number.two")},
-    { value: 1197, label: t("number.three") },
-    { value: 2133, label: t("number.four")},
+  const stats = [ 
+    { value: 125, label: t("number.one") }, // ندوات طبية 
+    { value: 672, label: t("number.two")}, // عمليه ولادة ناجحه 
+    { value: 258, label: t("number.three") },  //  حالات عقم 
+    { value: 487, label: t("number.four")}, // عملية حقن مجهري 
   ];
   
   const [inView, setInView] = useState(false);

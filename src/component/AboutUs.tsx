@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import doctor from "../assets/doctor.jpg";
+import doctor from "../assets/DrMohamed 2.jpg";
 
 const AboutUs = () => {
    const {t} = useTranslation();

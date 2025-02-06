@@ -7,6 +7,29 @@ import {
 } from "../components/ui/accordion";
 const FAQs = () => {
   const { t } = useTranslation();
+
+  const faqs = [
+    {
+      question : t("faq.q1") ,
+      answer : t("faq.a1") ,
+    },
+    {
+      question : t("faq.q2") ,
+      answer : t("faq.a2") ,
+    },
+    {
+      question : t("faq.q3") ,
+      answer : t("faq.a3") ,
+    },
+    {
+      question : t("faq.q4") ,
+      answer : t("faq.a4") ,
+    },
+    {
+      question : t("faq.q5") ,
+      answer : t("faq.a5") ,
+    },
+  ]
   return (
     <div className="">
       <div className="flex flex-col items-center justify-center pt-[20px] gap-[20px] ">
@@ -19,14 +42,14 @@ const FAQs = () => {
         </p>
       </div>
       <div className="container w-full  md:w-[70%] px-[35px]  md:px-[15px] py-[60px] md:py-[90px]">
-        {[0, 1, 2, 3, 4].map(() => (
-          <Accordion className="mb-[2px] " type="single" collapsible>
+        {faqs.map((faq , index) => (
+          <Accordion key={index} className="mb-[2px] " type="single" collapsible>
             <AccordionItem value="item-1 hover:text-secondary">
-              <AccordionTrigger className="hover:text-secondary hover:border-none hover:no-underline ps-[28px] pe-[17px] bg-[#F4F3F2] text-[#716F6F] text-[16px] font-normal">
-                {t("faq.title")}
+              <AccordionTrigger className="hover:text-secondary hover:border-none text-start hover:no-underline ps-[28px] pe-[17px] bg-[#F4F3F2] text-[#716F6F] text-[16px] font-normal">
+                {faq.question}
               </AccordionTrigger>
-              <AccordionContent className="pt-[21px] pb-[38px] px-[37px] bg-white text-[15px] leading-[26px] text-[#716F6F]">
-                {t("faq.text")}
+              <AccordionContent className="pt-[21px] pb-[38px] px-[37px] bg-white text-[15px] leading-[26px] text-start text-[#716F6F]">
+                {faq.answer}
               </AccordionContent>
             </AccordionItem>
           </Accordion>

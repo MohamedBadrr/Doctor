@@ -1,6 +1,6 @@
 {
   "header": {
-    "logo": "Media Point",
+    "logo": "El-Hodiby",
     "home": "Home",
     "aboutus": "About Us",
     "contactus": "Contact Us",
@@ -8,21 +8,30 @@
     "faqs": "FAQs"
   },
   "home": {
-    "intro": "Best Medical Treatment",
-    "main": "Proudly Introducing",
-    "main2": "Media Point",
-    "text": "Donec ullamcorper, nulla eget tincidunt suscipit, neque justo aliquet tellus, vel volutpat odio elit et mauris.",
-    "button": "READ MORE"
+    "intro": "The best treatments and prevention methods for women",
+    "main": " Dr. Mohamed El-Hodiby Clinics",
+    "main2": "Welcomes You..",
+    "text": "A successful women's clinic providing comprehensive care for women, combining medical expertise, modern technology, and personal attention to patient comfort..",
+    "button1": "READ MORE",
+    "button2": "CONTACT US"
   },
   "faq": {
     "main": "FAQs",
     "desc": "Some of the most frequently asked questions are answered below. If you have any other questions, feel free to contact us.",
-    "title": "Is it accessible?",
-    "text": "Lorem ipsum dolor sit amet, menandri scribentur vim eu, eam eu rebum singulis, labitur feugiat dolorum cu usu. Epicuri sententiae ex usu, munere omnium vix no, sed liber consul alienum ad. Epicuri oporteat in has, sea moderatius consectetuer et. No pro mentitum luptatum, vocibus liberavisse ei eum, cu laudem similique sit. Ad atomorum deseruisse mel, eu nulla novum mazim eos. At quo sumo albucius, eum lucilius molestiae ei, ut sensibus.."
+    "q1": "What specialties does Dr. Mohamed El-Hodaimi offer in the clinic?",
+    "a1": "The clinic specializes in obstetrics and gynecology, infertility treatment, IVF, gynecological endoscopy surgeries, painless natural and cesarean delivery, and addressing women’s health issues such as vaginal bleeding and uterine prolapse.",
+    "q2": "What services are available for pregnant women at Dr. Mohamed El-Hodaimi’s clinic?",
+    "a2": "The clinic provides comprehensive pregnancy care, including routine and high-risk pregnancy follow-up, 4D fetal ultrasound, nutritional consultations, and personalized birth plans tailored to each patient.",
+    "q3": "Does Dr. Mohamed El-Hodaimi offer treatment for infertility cases?",
+    "a3": "Yes, the clinic specializes in treating infertility using advanced IVF and ICSI techniques, along with precise diagnosis and customized treatment plans for each couple.",
+    "q4": "Are cosmetic gynecological surgeries and vaginal prolapse correction available at the clinic?",
+    "a4": "Yes, the clinic offers cosmetic vaginal surgeries, correction of vaginal prolapse, and urinary incontinence treatment using the latest technologies to ensure optimal results.",
+    "q5": "How can I book an appointment with Dr. Mohamed El-Hodaimi?",
+    "a5": "You can book an appointment by contacting the clinic directly or through the online booking platform, where you can select the most convenient time for your visit."
   },
   "services": {
     "main": "Our Services",
-    "desc": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia",
+    "desc": "We provide the best medical services for women that work on their comfort and provide them with effective and excellent assistance.",
     "name": "Diagnostics",
     "text": "Phasellus venenatis porta rhoncus. Integer et viverra felis itai.",
     "service1": "Choose the best gynecology and obstetrics doctor in Egypt based on consultation fees, accepted insurance, or search by the doctor's name. Check patient reviews and book your appointment online for free.",
@@ -37,27 +46,31 @@
   "aboutus": {
     "mainTitle": "About Us ",
     "desc": "This is a short description about my self and my work.",
-    "question": "Who We Are?",
-    "name": "Vivamus Vestibulum ",
+    "question": "Who is Dr. Muhammad Al-Hodiby?",
+    "name": "Dr. Mohamed El-Hodiby ",
     "job": "Obstetrics and Gynecology Doctor",
     "overview": "Senior Consultant in Obstetrics, Gynecology, IVF, and Endoscopy - PhD in Obstetrics and Gynecology - Fellow of the Fetal Medicine Unit - Kasr Al-Ainy - Consultant in Painless Natural Delivery, Painless C-Section, and 4D Fetal Ultrasound - Specialist in the treatment of vaginal bleeding, urinary incontinence, gynecological infections, and post-menopause follow-up - Pre-marital consultations - Vaginal and uterine prolapse repair - Hysterectomy and fibroid removal - Ovarian cyst removal - In vitro fertilization (IVF), intracytoplasmic sperm injection (ICSI), and infertility treatment."
   },
   "number": {
-    "one": " Health Websites ",
-    "two": "Top Hospitality ",
-    "three": " Happy Customers",
-    "four": "Innovative Approach"
+    "one": " Medical Seminars",
+    "two": "Successful Births  ",
+    "three": " Infertility Cases",
+    "four": "IVF Operations"
   },
   "contactus": {
     "main": " Contact Us ",
     "desc": " Contact us if you have any questions or need help. We are here to help you. ",
-    "title": "Meet Our Specialist This Doctor Mee",
+    "title": "Contact Dr. Mohammed El-Hodiby yourself.",
     "userName": "Your Name ",
     "email": "Your Email",
     "number": "Your Number",
     "subject": "Your Subject",
     "send": "Your Message",
-    "button": "Send Message"
+    "button": "Send Message",
+    "infoContact":"You can also visit us at Dr. Mohammed Al-Hudaibi's private clinic.",
+    "locationKeyword":"Location :",
+    "location":"Cairo Medical Center - Central Axis - Next to Eden Hospital - 6th of October City, 6 October City, Cairo ,Egypt",
+    "phoneKeyword":"Phone :"
   },
   "footer": {
     "AboutUs": "About Us",

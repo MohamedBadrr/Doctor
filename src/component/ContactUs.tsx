@@ -1,5 +1,9 @@
 import { useTranslation } from "react-i18next";
-import image from "../assets/contactus.jpg";
+import image from "../assets/DrMohamed 1.jpg";
+import image2 from "../assets/DrMohamed 2.jpg";
+import { FaLocationDot } from "react-icons/fa6";
+import { FaPhoneAlt } from "react-icons/fa";
+
 
 const ContactUs = () => {
   const {t} = useTranslation();
@@ -19,18 +23,25 @@ const ContactUs = () => {
         <div className="container w-full px-[35px] md:px-[50px] lg:px-[170px] h-full flex items-center justify-center">
           <div className="flex flex-col md:flex-row gap-[50px] ">
             <div className="flex items-center justify-center">
-              <img
+            <div className="flex flex-col gap-[30px]">
+            <img
                 src={image}
                 alt="image-section"
-                className="w-[600px] h-[400px] md:h-[500px] rounded-md"
+                className="w-[600px] h-[400px] md:h-[380px] rounded-md"
               />
+               <img
+                src={image2}
+                alt="image-section"
+                className="w-[600px] h-[400px] md:h-[380px] rounded-md"
+              />
+            </div>
             </div>
 
             <div className="">
-              <h1 className="text-center md:text-start text-[30px] md:text-[40px] font-bold font-Quicksand text-[#268ad6]">
+              <h1 className="text-center md:text-start text-[25px] md:text-[35px] font-bold font-Quicksand text-[#268ad6]">
               {t("contactus.title")}
               </h1>
-              <form action="" className="my-[40px]">
+              <form action="" className="mt-[20px] mb-[40px]">
                 <div>
                   <div className="block md:flex items-center justify-center gap-[20px] mb-[30px]">
                     <input
@@ -67,6 +78,27 @@ const ContactUs = () => {
                   </button>
                 </div>
               </form>
+
+              <div>
+              <h1 className="text-center md:text-start text-[25px] md:text-[35px] font-bold font-Quicksand text-[#268ad6]">
+              {t("contactus.title")}
+              </h1 >
+
+               <div className=" flex  items-start  justify-start gap-[25px] my-[20px]">
+                <FaLocationDot className="mt-[5px] text-gray-500 text-[22px]"/> 
+                <h1 className="text-secondary text-[20px]"> <span className="font-bold">{t("contactus.locationKeyword")}   </span>
+                <span className="text-gray-700 font-[500]"> {t("contactus.location")}</span>
+                </h1>
+               </div>
+
+                <div className=" flex  items-start  justify-start gap-[25px] my-[20px]">
+                <FaPhoneAlt className="mt-[5px] text-gray-500 text-[20px]"/> 
+                <h1 className="text-secondary text-[20px]"> <span className="font-bold"> {t("contactus.phoneKeyword")} </span>
+                <span className="text-gray-700 font-[500]"> +02010 29229993 </span>
+                </h1>
+               </div>
+
+              </div>
             </div>
           </div>
         </div>

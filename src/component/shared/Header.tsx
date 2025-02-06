@@ -64,7 +64,7 @@ const Header = () => {
           <div className="flex items-center">
             <span
               className={`text-2xl font-bold ${
-                isScrolled ? "text-[#716f6f]" : "text-gray-400 md:text-white"
+                isScrolled ? "text-secondary" : "text-gray-400 md:text-secondary"
               }`}
             >
               {t("header.logo")}
