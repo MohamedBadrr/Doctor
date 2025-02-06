@@ -11,12 +11,11 @@ const Home = () => {
               {t("home.intro")}
             </span>
             <div className="">
-              <p className="text-[39px] md:text-[89px] font-[700] md:leading-[100px] text-white font-Quicksand">
-                {t("home.main")} {t("home.main2")}
-                {/* {"Best Medical Treatment"} {"Proudly Introducing"} */}
+            <p className="text-[36px] md:text-[89px] flex flex-wrap font-[700] md:leading-[100px] text-white font-Quicksand">
+              <p>{t("home.main")}</p> <p>{t("home.main2")}</p>
               </p>
             </div>
-            <div className="w-[314px] md:w-[618px]">
+            <div className="w-[95%] md:w-[618px]">
               <p className="text-[17px] md:text-[22px] leading-[32px] text-white">
                 {t("home.text")}
               </p>
