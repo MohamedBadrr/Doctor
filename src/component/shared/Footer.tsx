@@ -1,7 +1,10 @@
+
+import { useTranslation } from "react-i18next";
 import { FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa";
 import { FaArrowRight } from "react-icons/fa6";
 
 const Footer = () => {
+  const {t} = useTranslation();
   return (
     <>
       <footer className="bg-[#202223] text-gray-300  min-h-[400px] flex flex-col justify-center items-center px-[35px] pt-[71px] pb-[91px] md:px-0 md:pt-[71px] md:pb-[91px]">
@@ -9,14 +12,13 @@ const Footer = () => {
           {/* About Us Section */}
           <div>
             <h3 className="text-[19px] font-[700] font-Quicksand  mb-[25px] text-white ">
-              About Us
+              {t("footer.AboutUs")}
             </h3>
             <p className="text-[14px] text-[#CFCFCF] w-[70%] md:w-full">
-              Duis in lectus cursus liberoe orci ace consectetur accumsan et
-              tortorom. Maecenas non lobortis tellus.
+            {t("footer.desc")}
             </p>
             <h4 className="text-[19px] font-[700] font-Quicksand  mt-[15px] mb-[25px] text-white">
-              Start Follow
+            {t("footer.start")}
             </h4>
             <div className="flex space-x-4 mt-3">
               <a
@@ -43,7 +45,7 @@ const Footer = () => {
           {/* Quick Links Section */}
           <div>
             <h3 className="text-[19px] font-[700] font-Quicksand  mb-[25px] text-white">
-              Quick Links
+            {t("footer.QuickLinks")}
             </h3>
             <ul className="space-y-2">
               <li>
@@ -52,7 +54,7 @@ const Footer = () => {
                   className="text-[#CFCFCF] min-h-[20px] flex hover:text-secondary text-[14px] duration-200 group items-center "
                 >
                   <FaArrowRight className="mr-[5px] text-[14px] hidden group-hover:block duration-150" />
-                  Home
+                  {t("footer.home")}
                 </a>
               </li>
               <li>
@@ -61,7 +63,7 @@ const Footer = () => {
                   className="text-[#CFCFCF] min-h-[20px] flex hover:text-secondary text-[14px] duration-200 group items-center "
                 >
                   <FaArrowRight className="mr-[5px] text-[14px] hidden group-hover:block duration-150" />
-                  AboutUs
+                  {t("footer.aboutus")}
                 </a>
               </li>
               <li>
@@ -70,7 +72,7 @@ const Footer = () => {
                   className="text-[#CFCFCF] min-h-[20px] flex hover:text-secondary text-[14px] duration-200 group items-center "
                 >
                   <FaArrowRight className="mr-[5px] text-[14px] hidden group-hover:block duration-150" />
-                  Services
+                  {t("footer.services")}
                 </a>
               </li>
               <li>
@@ -79,7 +81,7 @@ const Footer = () => {
                   className="text-[#CFCFCF] min-h-[20px] flex hover:text-secondary text-[14px] duration-200 group items-center "
                 >
                   <FaArrowRight className="mr-[5px] text-[14px] hidden group-hover:block duration-150" />
-                  FAQs
+                  {t("footer.faqs")}
                 </a>
               </li>
               <li>
@@ -88,7 +90,7 @@ const Footer = () => {
                   className="text-[#CFCFCF] min-h-[20px] flex hover:text-secondary text-[14px] duration-200 group items-center "
                 >
                   <FaArrowRight className="mr-[5px] text-[14px] hidden group-hover:block duration-150" />
-                  Contact Us
+                  {t("footer.contactus")}
                 </a>
               </li>
             </ul>
@@ -97,7 +99,7 @@ const Footer = () => {
           {/* Recent Posts Section */}
           <div>
             <h3 className="text-[19px] font-[700] font-Quicksand  mb-[25px] text-white">
-              Recent Posts
+            {t("footer.RecentPosts")}
             </h3>
             <ul className="space-y-2">
               <li>
@@ -106,7 +108,7 @@ const Footer = () => {
                   className="text-[#CFCFCF] min-h-[20px] flex hover:text-secondary text-[14px] duration-200 group items-center "
                 >
                   <FaArrowRight className="mr-[5px] text-[14px] hidden group-hover:block duration-150" />
-                  Anti-Age Hints
+                  {t("footer.Anti")}
                 </a>
               </li>
               <li>
@@ -115,7 +117,7 @@ const Footer = () => {
                   className="text-[#CFCFCF] min-h-[20px] flex hover:text-secondary text-[14px] duration-200 group items-center "
                 >
                   <FaArrowRight className="mr-[5px] text-[14px] hidden group-hover:block duration-150" />
-                  Best Vets
+                  {t("footer.best")}
                 </a>
               </li>
               <li>
@@ -124,7 +126,7 @@ const Footer = () => {
                   className="text-[#CFCFCF] min-h-[20px] flex hover:text-secondary text-[14px] duration-200 group items-center "
                 >
                   <FaArrowRight className="mr-[5px] text-[14px] hidden group-hover:block duration-150" />
-                  Coronary Exams
+                  {t("footer.Coronary")}
                 </a>
               </li>
               <li>
@@ -133,7 +135,7 @@ const Footer = () => {
                   className="text-[#CFCFCF] min-h-[20px] flex hover:text-secondary text-[14px] duration-200 group items-center "
                 >
                   <FaArrowRight className="mr-[5px] text-[14px] hidden group-hover:block duration-150" />
-                  Elderly Care
+                  {t("footer.Elderly")}
                 </a>
               </li>
               <li>
@@ -142,7 +144,7 @@ const Footer = () => {
                   className="text-[#CFCFCF] min-h-[20px] flex hover:text-secondary text-[14px] duration-200 group items-center "
                 >
                   <FaArrowRight className="mr-[5px] text-[14px] hidden group-hover:block duration-150" />
-                  Eye Exams
+                  {t("footer.Eye")}
                 </a>
               </li>
               <li>
@@ -151,7 +153,7 @@ const Footer = () => {
                   className="text-[#CFCFCF] min-h-[20px] flex hover:text-secondary text-[14px] duration-200 group items-center "
                 >
                   <FaArrowRight className="mr-[5px] text-[14px] hidden group-hover:block duration-150" />
-                  Great Facials
+                  {t("footer.Great")}
                 </a>
               </li>
             </ul>
@@ -160,14 +162,13 @@ const Footer = () => {
           {/* Location Section */}
           <div>
             <h3 className="text-[19px] font-[700] font-Quicksand mb-[25px] text-white">
-              Location
+            {t("footer.location")}
             </h3>
             <p className="mb-4 text-[#CFCFCF] text-[14px] w-[70%] md:w-full">
-              Duis in lectus cursus liberoe orci ace consectetur accumsan et
-              tortorom. Maecenas non lobortis tellus.
+            {t("footer.locationDetails")}
             </p>
             <p>
-              <strong className="text-[14px]">Contact:</strong>
+              <strong className="text-[14px]">{t("footer.contact")}</strong>
               <p>
                 <a
                   href="https://wa.me/080025379901"
@@ -180,7 +181,7 @@ const Footer = () => {
               </p>
             </p>
             <p className="text-[14px] mt-[20px]">
-              <strong>Email:</strong>
+              <strong>{t("footer.email")}</strong>
               <p>
                 <a
                   href="mailto:medipoint@example.com"
@@ -195,7 +196,8 @@ const Footer = () => {
       </footer>
       <div className="bg-[#1A1A1A] text-[#CFCFCF] text-[14px]  py-4 text-center h-[98px] md:h-[72px] flex items-center justify-center">
         <p className="text-[#BAB7B7] font-[700] text-[14px]">
-          &copy; 2025 Medipoint. All rights reserved
+          &copy; 2025 Medipoint, {t("footer.allRights")}
+
         </p>
       </div>
     </>

@@ -1,13 +1,15 @@
 import { useEffect, useState } from "react";
+import { useTranslation } from "react-i18next";
 
 const Number = () => {
+  const {t} = useTranslation();
   const stats = [
-    { value: 1740, label: "Health Websites" },
-    { value: 2061, label: "Top Hospitality" },
-    { value: 1197, label: "Happy Customers" },
-    { value: 2133, label: "Innovative Approach" },
+    { value: 1740, label: t("number.one") },
+    { value: 2061, label: t("number.two")},
+    { value: 1197, label: t("number.three") },
+    { value: 2133, label: t("number.four")},
   ];
-
+  
   const [inView, setInView] = useState(false);
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -61,7 +63,7 @@ const StatItem = ({
   useEffect(() => {
     if (inView) {
       // const start = 0;
-      const duration = 2000; // مدة العد 2 ثواني
+      const duration = 2000; 
       const startTime = performance.now();
 
       const step = (currentTime: number) => {

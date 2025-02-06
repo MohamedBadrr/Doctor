@@ -1,13 +1,16 @@
-import { useState, useEffect } from "react";
+import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { IoIosArrowForward } from "react-icons/io";
 import { IoMenuOutline } from "react-icons/io5";
+import TranslateButton from "./TranslateButton";
+
 
 const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const { t } = useTranslation();
   const [activeSection, setActiveSection] = useState("HOME");
   const [isScrolled, setIsScrolled] = useState(false);
+
 
   useEffect(() => {
     const handleScroll = () => {
@@ -89,8 +92,10 @@ const Header = () => {
                 </li>
               )
             )}
+            <li className="flex items-center justify-center mx-4"><TranslateButton /></li>
           </ul>
 
+     
           {/* Mobile Hamburger Menu Button */}
           <div className="md:hidden">
             <button
@@ -131,6 +136,7 @@ const Header = () => {
               </li>
             )
           )}
+            <li className="flex items-center justify-center mx-4 my-[10px] md:my-[0px]"><TranslateButton /></li>
         </ul>
       </div>
     </nav>

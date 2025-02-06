@@ -15,8 +15,63 @@
     "button": "READ MORE"
   },
   "faq": {
-    "main":"FAQs",
+    "main": "FAQs",
+    "desc": "Some of the most frequently asked questions are answered below. If you have any other questions, feel free to contact us.",
     "title": "Is it accessible?",
     "text": "Lorem ipsum dolor sit amet, menandri scribentur vim eu, eam eu rebum singulis, labitur feugiat dolorum cu usu. Epicuri sententiae ex usu, munere omnium vix no, sed liber consul alienum ad. Epicuri oporteat in has, sea moderatius consectetuer et. No pro mentitum luptatum, vocibus liberavisse ei eum, cu laudem similique sit. Ad atomorum deseruisse mel, eu nulla novum mazim eos. At quo sumo albucius, eum lucilius molestiae ei, ut sensibus.."
+  },
+  "services": {
+    "main": "Our Services",
+    "desc": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia",
+    "name": "Diagnostics",
+    "text": "Phasellus venenatis porta rhoncus. Integer et viverra felis itai."
+  },
+  "aboutus": {
+    "mainTitle": "About Us ",
+    "desc": "This is a short description about my self and my work.",
+    "question": "Who We Are?",
+    "name": "Vivamus Vestibulum ",
+    "job": " Rhonc Ex, Non Bibendum Erat",
+    "overview": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur varius ligula quis turpis ornare, a eleifend leo tempor. Nullam euismod, purus eu rhoncus rhoncus, purus elit semper lorem, eu condimentum lorem metus id nisi. Vestibulum semper mollis cursus. Pellentesque eros turpis, imperdiet sit amet ultricies vel, pharetra non sapien. Sed quis porttitor enim."
+  },
+  "number": {
+    "one": " Health Websites ",
+    "two": "Top Hospitality ",
+    "three": " Happy Customers",
+    "four": "Innovative Approach"
+  },
+  "contactus": {
+    "main": " Contact Us ",
+    "desc": " Contact us if you have any questions or need help. We are here to help you. ",
+    "title": "Meet Our Specialist This Doctor Mee",
+    "userName": "Your Name ",
+    "email": "Your Email",
+    "number": "Your Number",
+    "subject": "Your Subject",
+    "send": "Your Message",
+    "button": "Send Message"
+  },
+  "footer": {
+    "AboutUs": "About Us",
+    "desc": "Duis in lectus cursus liberoe orci ace consectetur accumsan et tortorom. Maecenas non lobortis tellus.",
+    "start": "Start Follow ",
+    "QuickLinks": "Quick Links ",
+    "aboutus": "About Us",
+    "contactus": "Contact Us",
+    "services": "Services",
+    "faqs": "FAQs",
+    "home": "Home",
+    "RecentPosts": "Recent Posts ",
+    "Anti": "Anti-Age Hints",
+    "best": "Best Vets ",
+    "Coronary": "Coronary Exams",
+    "Elderly": "Elderly Care ",
+    "Eye": " Eye Exams",
+    "Great": "Great Facials",
+    "location": "Location",
+    "locationDetails": "Duis in lectus cursus liberoe orci ace consectetur accumsan et tortorom. Maecenas non lobortis tellus.",
+    "contact": "Contact :",
+    "email": "Email :",
+    "allRights": "All rights reserved."
   }
 }

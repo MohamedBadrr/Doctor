@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import image1 from "../assets/service1.png";
 import image2 from "../assets/service2.png";
 import image3 from "../assets/service3.png";
@@ -18,17 +19,17 @@ const Services = () => {
     image7,
     image8,
   ];
+  const { t } = useTranslation();
   return (
     <div className="">
       {/* Title */}
       <div className="flex flex-col items-center justify-center pt-[120px] gap-[20px] ">
         <h1 className="text-[40px] font-[700] leading-[50px] font-Quicksand">
-          Our Services
+          {t("services.main")}
         </h1>
         <div className="w-[48px] h-[4px] bg-secondary rounded-[4px]"></div>
         <p className="text-[#767676] text-center w-[85%] md:w-[100%] font-Quicksand text-[20px] leading-[32px]">
-          Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-          posuere cubilia
+        {t("services.desc")}
         </p>
       </div>
       {/* services */}
@@ -43,11 +44,10 @@ const Services = () => {
               >
                 <img src={image} alt="service" className="w-[78px] h-[78px] transform transition-transform duration-300 group-hover:-translate-y-[15px]  " />
                 <h1 className="text-[19px] font-[700]  leading-[31px]   text-[#2d3134] font-Quicksand">
-                  Diagnostics
+                {t("services.name")}
                 </h1>
                 <p className="text-center text-[15px] text-[#716f6f] leading-[26px] ">
-                  Phasellus venenatis porta rhoncus. Integer et viverra felis
-                  itai.
+                {t("services.text")}
                 </p>
               </div>
             ))}
