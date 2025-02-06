@@ -81,7 +81,7 @@ const ContactUs = () => {
 
               <div>
               <h1 className="text-center md:text-start text-[25px] md:text-[35px] font-bold font-Quicksand text-[#268ad6]">
-              {t("contactus.title")}
+              {t("contactus.infoContact")}
               </h1 >
 
                <div className=" flex  items-start  justify-start gap-[25px] my-[20px]">
