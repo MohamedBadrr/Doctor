@@ -15,7 +15,7 @@ const ContactUs = () => {
           {t("contactus.main")}
         </h1>
         <div className="w-[48px] h-[4px] bg-secondary rounded-[4px]"></div>
-        <p className="text-[#767676] text-center  font-Quicksand text-[20px] leading-[32px]">
+        <p className="text-[#767676] text-center w-[85%]  font-Quicksand text-[20px] leading-[32px]">
         {t("contactus.desc")}
         </p>
       </div>
