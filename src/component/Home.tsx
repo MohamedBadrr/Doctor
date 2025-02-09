@@ -4,7 +4,7 @@ const Home = () => {
   const { t } = useTranslation();
   return (
     <div>
-      <div className="bg-[url('assets/test2.jpg')] bg-cover md:bg-[length:100%_100%] bg-no-repeat bg-opacity-20 flex items-center min-h-[100vh] pt-[100px] mt-[70px] md:mt-[0px] md:pt-[70px] md:pb-[100px]">
+      <div className="bg-[url('assets/test2.jpg')] bg-cover md:bg-[length:100%_100%] bg-no-repeat bg-opacity-20 flex items-center min-h-[100vh] md:min-h-[100vh] pt-[0px] mt-[70px] md:mt-[0px] md:pt-[70px] md:pb-[100px]">
         <div className="container max-w-fuu w-full md:w-[70%] h-full">
           <div className="flex flex-col gap-8 md:pt-[40px] justify-center  md:justify-start h-full md:items-start">
             <span className="text-white text-[19px] md:text-[21px] leading-[31px] font-[500] font-Quicksand">

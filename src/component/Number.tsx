@@ -33,7 +33,7 @@ const Number = () => {
   return (
     <div
       id="stats-section"
-      className="bg-[#54c0ff] min-h-[325px] py-[70px] flex items-center justify-center mb-[90px]"
+      className="bg-[#54c0ff] min-h-[325px] py-[70px] flex items-center justify-center "
     >
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-y-[30px]">
         {stats.map((stat, index) => (
@@ -81,7 +81,7 @@ const StatItem = ({
   }, [inView, endValue]);
 
   return (
-    <div className="flex flex-col flex-wrap items-center gap-[25px] text-white m-[30px] md:m-[15px] ">
+    <div className="flex flex-col flex-wrap items-center gap-[25px] text-white m-[30px] md:m-[15px] md:mb-[0px]">
       <h2 className="text-[53px] leading-[53px] font-Quicksand font-[500]">
         {count}
       </h2>

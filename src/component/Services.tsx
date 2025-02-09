@@ -31,7 +31,7 @@ const Services = () => {
   return (
     <div className="">
       {/* Title */}
-      <div className="flex flex-col items-center justify-center pt-[120px] gap-[20px] ">
+      <div className="flex flex-col items-center justify-center pt-[110px] gap-[20px] ">
         <h1 className="text-[40px] font-[700] leading-[50px] font-Quicksand">
           {t("services.main")}
         </h1>
@@ -41,7 +41,7 @@ const Services = () => {
         </p>
       </div>
       {/* services */}
-      <div className="pt-[70px] pb-[120px]">
+      <div className="pt-[70px] pb-[0px]">
         <div className="container w-full md:px-[50px] lg:px-[170px] h-full flex items-center justify-center">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-y-[20px] ">
             {/* one service */}
