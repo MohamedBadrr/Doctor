@@ -55,7 +55,7 @@ const Header = () => {
   return (
     <nav className="shadow-sm">
       <div
-        className={`fixed top-0 left-0 w-full z-10 h-[100px] md:h-[70px] transition-all duration-300 ${
+        className={`fixed top-0 left-0 w-full z-10 h-[70px] md:h-[70px] transition-all duration-300 ${
           isScrolled ? "bg-white" : "bg-white md:bg-opacity-40"
         }`}
       >
@@ -63,8 +63,8 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center">
             <span
-              className={`text-2xl font-bold ${
-                isScrolled ? "text-secondary" : "text-gray-400 md:text-secondary"
+              className={`text-[28px] font-bold ${
+                isScrolled ? "text-secondary" : "text-gray-600 md:text-secondary"
               }`}
             >
               {t("header.logo")}
@@ -102,7 +102,7 @@ const Header = () => {
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
               className="text-gray-700 focus:outline-none"
             >
-              <IoMenuOutline size={16} />
+              <IoMenuOutline size={36} />
             </button>
           </div>
         </div>
