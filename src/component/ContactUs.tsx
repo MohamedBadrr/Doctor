@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 import image from "../assets/DrMohamed 1.jpg";
-import image2 from "../assets/DrMohamed 2.jpg";
+import image2 from "../assets/DrMohamed3.jpg";
 import { FaLocationDot } from "react-icons/fa6";
 import { FaPhoneAlt } from "react-icons/fa";
 
@@ -25,12 +25,12 @@ const ContactUs = () => {
             <div className="flex items-center justify-center">
             <div className="flex flex-col gap-[30px]">
             <img
-                src={image}
+                src={image2}
                 alt="image-section"
                 className="w-[600px] h-[400px] md:h-[380px] rounded-md"
               />
-               <img
-                src={image2}
+            <img
+                src={image}
                 alt="image-section"
                 className="w-[600px] h-[400px] md:h-[380px] rounded-md"
               />
