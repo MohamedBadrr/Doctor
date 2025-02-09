@@ -84,10 +84,10 @@ const ContactUs = () => {
               {t("contactus.infoContact")}
               </h1 >
 
-               <div className=" flex  items-start  justify-start gap-[25px] my-[20px]">
-                <FaLocationDot className="mt-[5px] text-gray-500 text-[22px]"/> 
+               <div className=" flex  items-start  justify-start gap-[25px] my-[20px] pr-[15px] md:pr-[0px]">
+                <FaLocationDot className="mt-[5px] text-gray-500 text-[65px] md:text-[32px]"/> 
                 <h1 className="text-secondary text-[20px]"> <span className="font-bold">{t("contactus.locationKeyword")}   </span>
-                <span className="text-gray-700 font-[500]"> {t("contactus.location")}</span>
+                <span className="text-gray-700 font-[500] "> {t("contactus.location")}</span>
                 </h1>
                </div>
 
