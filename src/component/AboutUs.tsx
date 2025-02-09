@@ -5,7 +5,7 @@ const AboutUs = () => {
    const {t} = useTranslation();
   return (
     <div className="">
-      <div className="flex flex-col items-center justify-center  pt-[120px] gap-[20px] ">
+      <div className="flex flex-col items-center justify-center  pt-[90px] gap-[20px] ">
         <h1 className="text-[40px] font-[700] leading-[50px] font-Quicksand">
         {t("aboutus.mainTitle")}
         </h1>

@@ -10,7 +10,7 @@ const ContactUs = () => {
   return (
     <div className="">
       {/* Title */}
-      <div className="flex flex-col items-center justify-center  pt-[100px] gap-[20px] ">
+      <div className="flex flex-col items-center justify-center  pt-[90px] gap-[20px] ">
         <h1 className="text-[40px] font-[700] leading-[50px] font-Quicksand">
           {t("contactus.main")}
         </h1>
