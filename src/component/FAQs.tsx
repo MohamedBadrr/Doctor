@@ -41,9 +41,9 @@ const FAQs = () => {
         {t("faq.desc")}
         </p>
       </div>
-      <div className="container w-full  md:w-[70%] px-[35px]  md:px-[15px] py-[60px] md:py-[90px]">
+      <div className="container w-full  md:w-[70%] px-[35px]  md:px-[15px] pt-[60px] md:pt-[90px]">
         {faqs.map((faq , index) => (
-          <Accordion key={index} className="mb-[2px] " type="single" collapsible>
+          <Accordion key={index} className="mb-[15px]" type="single" collapsible>
             <AccordionItem value="item-1 hover:text-secondary">
               <AccordionTrigger className="hover:text-secondary hover:border-none text-start hover:no-underline ps-[28px] pe-[17px] bg-[#F4F3F2] text-[#716F6F] text-[16px] font-normal">
                 {faq.question}
